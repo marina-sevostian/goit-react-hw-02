@@ -1,11 +1,15 @@
 // import { useState } from "react";
 
-import "./App.css";
+import './App.css';
 
 function App() {
-  // const [count, setCount] = useState(0);
+  const typeFeedback = {
+    good: 0,
+    neutral: 0,
+    bad: 0,
+  };
 
-  return;
+  return typeFeedback;
 }
 
 export default App;
