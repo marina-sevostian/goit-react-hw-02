@@ -1,0 +1,11 @@
+.list {
+  /* display: flex;
+  gap: 10px; */
+  justify-content: center;
+}
+
+.item {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}

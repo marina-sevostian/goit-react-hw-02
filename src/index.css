@@ -1,6 +1,9 @@
 body {
   font-family: sans-serif;
   line-height: 1.5;
+  color: black;
+  /* background-color: #d1a8e6; */
+  background-color: rgb(205, 233, 233);
 }
 
 h1,

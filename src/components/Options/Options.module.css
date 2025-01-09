@@ -1,0 +1,25 @@
+.list {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.itemBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 40px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.itemBtn:hover,
+.itemBtn:focus {
+  background-color: #cdccc7;
+}
