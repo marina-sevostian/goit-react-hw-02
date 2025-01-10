@@ -45,7 +45,11 @@ function App() {
         resetBtn={handleResetBtn}
       />
       {totalFeedback >= 1 && (
-        <Feedback quantity={feedbackData} feedbackPositive={positiveFeedback} />
+        <Feedback
+          quantity={feedbackData}
+          feedbackPositive={positiveFeedback}
+          total={totalFeedback}
+        />
       )}
       {totalFeedback < 1 && <Notification />}
     </>
